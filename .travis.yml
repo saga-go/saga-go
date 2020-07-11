@@ -12,7 +12,7 @@ env:
   global:
     - GO111MODULE=on
     - DEBUG=true
-    - CODECOV_TOKEN="5a7376b5-38ad-4255-9fb0-2e9ca4fb23c7"
+    - CODECOV_TOKEN="a3700b77-876b-4923-909b-3ee2b2871be0"
 
 install:
   - go mod download
