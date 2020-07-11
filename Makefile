@@ -12,3 +12,4 @@ cover:
 pack-contract-grpc:
 	@rm -rf ./pb/sagagrpc && mkdir ./pb/sagagrpc
 	@protoc -I pb --gofast_out=plugins=grpc:pb/sagagrpc pb/*.proto
+	@go generate ./...
