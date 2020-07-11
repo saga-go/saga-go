@@ -3,6 +3,8 @@
 
 Go client of [servicecomb-saga](https://github.com/apache/servicecomb-pack)
 
+In Dev, Don't use it in production env
+
 ## Develop
 
 install some develop tools:
