@@ -1,11 +1,7 @@
 package transport
 
 import (
-	"context"
-
-	"github.com/pkg/errors"
 	"github.com/saga-go/saga-go/pb/sagagrpc"
-	"google.golang.org/grpc"
 )
 
 // SagaTransactionTransport Transaction Transport (Saga)
